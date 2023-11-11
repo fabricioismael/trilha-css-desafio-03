@@ -1,0 +1,206 @@
+h1,h2,h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Roboto','sans-serif';
+    font-size: 14px;
+    font-weight: 600;
+}
+p {
+    font-family: 'Roboto','sans-serif';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 24px 0 24px;
+}
+
+#menu .right {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-color: white;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+#menu .btn.hamburguer {
+    margin-right: 32px;
+    background-image: url(/assets/icons/menu.svg);
+}
+
+#menu .youtube-btn {
+    width: 90px;
+    height: 20px;
+    background-image: url(/assets/icons/youtube\ 1.svg);
+    background-size: contain;
+    background-color: white;
+    border: none;
+
+}
+
+#menu .search-bar {
+    float: left;
+    width: 340px;
+    height: 42px;
+    border: 1px solid #ccc;
+}
+
+#menu .search-btn {
+    border: 1px solid #ccc;
+    float: left;
+    width: 57px;
+    height: 46px;
+    background-position: center;
+    background-image: url(/assets/icons/search.svg);
+    background-repeat: no-repeat;
+}
+
+#menu .btn.cam {
+    background-image: url(/assets/icons/video.svg);
+    margin-right: 24px;
+}
+
+#menu .btn.bell {
+    background-image: url(/assets/icons/bell.svg);
+    margin-right: 24px;
+}   
+
+#menu .btn.avatar {
+    background-image: url(/assets/icons/icon-of-a-man-wearing-glasses-svgrepo-com.svg);
+    width: 34px;
+    height: 34px;
+    border-radius: 34px;
+}
+
+
+.dis-flex {
+    display: flex;
+}
+.dis-column {
+    display: flex;
+    flex-direction: column;
+}
+/*
+    side-menu section
+*/
+
+
+#side-menu {
+    display: grid;
+    width: 218px;
+    height: 968px;
+    grid-template-rows: repeat(10, 24px);
+    grid-template-columns: 24px 130px;
+    column-gap: 16px;
+    row-gap: 22px;
+    padding: 24px;
+}
+
+#side-menu h2 {
+    font-weight: 400;
+}
+
+#side-menu .center {
+    display: flex;
+    align-items: center;
+}
+#side-menu .btn.inicio {
+    background-image: url(/assets/icons/home.svg);
+}
+
+#side-menu .btn.explorar {
+    background-image: url(/assets/icons/compass.svg);
+}
+
+#side-menu .btn.inscricoes {
+    background-image: url(/assets/icons/youtube-icon.svg);
+}
+
+#side-menu .btn.music {
+    background-image: url(/assets/icons/disc.svg);
+}
+
+#side-menu .btn.videos-gostei {
+    background-image: url(/assets/icons/thumbs-up.svg);
+}
+
+#side-menu .btn.assistir-maisTarde {
+    background-image: url(/assets/icons/clock.svg);
+}
+
+#side-menu .btn.downloads {
+    background-image: url(/assets/icons/download.svg);
+}
+
+#side-menu .btn.filmes {
+    background-image: url(/assets/icons/film.svg);
+}
+
+#side-menu .btn.aprender {
+    background-image: url(/assets/icons/book.svg);
+}
+
+#side-menu .btn.esportes {
+    background-image: url(/assets/icons/award.svg);
+}
+
+#video-list {
+    display: grid;
+    grid-template-columns: repeat(4, 282px);
+    grid-template-rows: repeat(3, 282px);
+    padding: 24px 28px;
+    row-gap: 14px;
+    column-gap: 14px;
+
+}
+
+#video-list .video-container { 
+    padding: 16px;
+}
+#video-list .video-container h2{ 
+    margin-bottom: 15px;
+}
+
+#video-list .video-container .video-desc {
+    width: 197px;
+}
+
+#video-list .images {
+    background-image: url(/assets/images/thumb-hd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 16px;
+    width: 250px;
+    height: 140px;
+}
+
+#video-list .images2 { 
+    background-image: url(/assets/images/image\ 16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 16px;
+    width: 250px;
+    height: 140px;
+}
+
+#video-list .channel-avatar {
+    margin-right: 10px;
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    background-image: url(/assets/icons/Channel\ Avatar.svg);
+    background-color: white;
+    border: none;
+}
